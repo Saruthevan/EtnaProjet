@@ -1,0 +1,1 @@
+SELECT pokemon_types.type_id, COUNT(types.id) as nb from types, pokemon_types group by pokemon_types.type_id;

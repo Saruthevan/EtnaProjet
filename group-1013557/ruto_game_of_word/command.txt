@@ -1,0 +1,1 @@
+cat poem | tr ' ' '\n' | grep -c 'Ruto'

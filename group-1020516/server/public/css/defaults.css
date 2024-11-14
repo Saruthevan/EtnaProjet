@@ -1,0 +1,539 @@
+/* 
+
+
+    GENERAL
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');  
+ 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+
+/* BARRE DE NAVIGATION */
+
+.linkNav {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px;
+
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    width: 40%; 
+}
+
+li {
+    width: 25%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.logoImg {
+    height: 60%;
+}
+
+/* 
+
+
+    REGLE DE BODY 
+
+
+*/
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+main {
+    min-height: 75vh;
+}
+
+/* 
+
+
+    GENERAL DE LOGIN ET DE REGISTER
+
+
+*/
+
+.main {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.centrale {
+    position: absolute;
+    left: 12.5%;
+    top: 20%;
+    bottom: 20%;
+    right: 12.5%;
+    display: flex;
+    width: 75%;
+    height: 550px;
+    background-color: black;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column ; 
+}
+
+.field {
+    width: 330px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    padding: 0 2%;
+}
+
+.button {
+    width: 161px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    background-color: #43A6EA;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.linkAccount {
+    color: white;
+    text-decoration: none;
+}
+
+/* 
+
+
+    LOGIN PAGE
+
+
+*/
+
+.formLog {
+    justify-content: center;
+}
+  
+.part, .parentButton {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* 
+
+
+    REGISTER PAGE
+
+
+*/
+
+.fieldReg {
+    margin-top: 2%;
+}
+
+/* 
+
+
+    HOME
+
+
+*/
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    text-align: center;
+}
+  
+.price {
+    color: grey;
+    font-size: 16px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+  
+.hcard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Utilisation de grid avec des colonnes responsives */
+    /* gap: 20px; /* Marge entre les cartes
+    justify-content: center; */
+    
+}
+.imgteaJuan {
+    width: 100%;
+    height: 61%;
+} 
+
+/* p {
+    margin: 4px;
+} */
+
+
+/* 
+
+
+PRODUCTS
+
+
+*/
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    justify-content: center;
+}
+
+.imageJuan {
+    width: 30%;
+}
+
+.hbody {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    width: 100%;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.buttonChoice {
+    background-color: #AED6F1;
+    border: none;
+    color: #020202;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 16px;
+    border-radius: 35px;
+    height: 46px;
+    width: 200px;
+  }
+
+.buttonChoice:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+    color: #fff;
+}
+
+/* Ajoutez des styles pour le bouton enfoncé */
+.enfonce {
+    background-color: black; /* Couleur de fond lorsque le bouton est enfoncé */
+    color: #fff; /* Couleur du texte lorsque le bouton est enfoncé */
+}
+
+
+.buttonChoice:hover {
+    cursor: pointer;
+    background-color: #43A6EA;
+}
+
+.pChoice {
+    font-size: 30px;
+}
+.down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.down, .top {
+    margin:0px;
+    padding:0px;
+}
+
+.titleDown {
+    display: flex;
+    flex-direction: row;
+}
+
+small {
+    padding-top: 20px;
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+.footer {
+    margin-top: 60px;
+    padding: 2rem;
+    background: #43A6EA;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.checkout- {
+    display: block;
+    width: 14%;
+    padding: 10px;
+    margin-top: 55px;
+    background-color: #43A6EA;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    font-size: 17px;
+    border-radius: 35px;
+
+}
+.checkout-:active {
+    transform: translate(0px,3px);
+    -webkit-transform: translate(0px,3px);
+    border-bottom: 1px solid;
+    color: #fff;
+}
+/* 
+
+      
+    PROFIL
+
+
+*/
+
+.inputToUpdate {
+    display: flex;
+    flex-direction: column;
+}
+#historique {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.commande {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.commande p {
+    margin: 0;
+}
+
+.commande .date {
+    color: #888;
+    font-size: 0.8em;
+}
+.profile-button {
+    background: #43A6EA;
+    box-shadow: none;
+    border: none;
+    border-radius: 26px;
+    height: 24px;
+    width: 81px;
+    font-size: 10px;
+    color: white;
+    
+}
+
+.profile-button:active {
+    transform: translate(0px,3px);
+    -webkit-transform: translate(0px,3px);
+    border-bottom: 1px solid;
+    color: #fff;
+}
+
+.container {
+    border: 70px  #43A6EA solid;
+}
+
+/* 
+
+       PANIER ( CART )
+
+*/
+
+.container-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    background-color:#43A6EA;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.cart-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.quantity {
+    margin-top: 10px;
+}
+
+.subtotal {
+    font-weight: bold;
+}
+
+.remove-btn {
+    background-color: #43A6EA;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+}
+.remove-btn:active {
+    transform: translate(0px,3px);
+    -webkit-transform: translate(0px,3px);
+    border-bottom: 1px solid;
+    color: #fff;
+}
+.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #43A6EA;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+}
+.checkout-btn:active {
+    transform: translate(0px,3px);
+    -webkit-transform: translate(0px,3px);
+    border-bottom: 1px solid;
+    color: #fff;
+}
+
+/* 
+
+    ABOUT
+
+*/
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

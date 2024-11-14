@@ -1,0 +1,1 @@
+select SUM(12 + 14) as results;

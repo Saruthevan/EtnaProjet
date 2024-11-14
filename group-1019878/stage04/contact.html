@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Formulaire d'inscription</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="index.html">Projects</a></li>
+        </ul>
+      </nav>
+      <h1>Thevanesan Sarujan</h1>
+      <h2 class="title">Welcome to my portfolio !</h2>
+    </header>
+    <main>
+      <fieldset>
+          <form action="">
+              <h4>Personal informations</h4>
+              <hr />
+              <div class="name-field">
+                  <div>
+                  <label>Civility</label>
+                  <p>
+                    Mr
+                  <input type="radio" />
+                  </p>
+                  <p> Mme <input type="radio" />
+                  </p>
+                  
+                </div>
+              <div>
+                  <label>Firstname</label>
+                  <input name="firstname" type="text" />
+              </div>
+              <div class="name-field">
+                  <div>
+                  <label>Lastname</label>
+                  <input name="lastenamme" type="text" />
+              </div>
+              <div>
+                  <label>Email</label>
+                  <input name="email" type="text" />
+              </div>
+              <div class="name-field">
+                  <div>
+                  <label>Phone number</label>
+                  <input name="phoneNumber" type="number" />
+              </div>
+              </div>
+              <h4>Message</h4>
+              <hr />
+              <select>
+                  <option value="">--Please choose an option--</option>
+                  <option value="Rendez-vous">Rendez-vous</option>
+                  <option value="hello">Just saying hello</option>
+              </select>
+              <br>
+              <input type="date"/>
+              <br>
+              <label for ="user">Content</label>
+              <br>
+              <textarea id="user"></textarea>
+          </form>
+          <input type="submit" value="submit">
+      </fieldset>
+    </main>
+  </body>
+</html>

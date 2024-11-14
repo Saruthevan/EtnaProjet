@@ -1,0 +1,1 @@
+SELECT pokemon.id, pokemon.identifier from pokemon order by  pokemon.weight DESC limit 1 ;

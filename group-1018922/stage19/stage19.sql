@@ -1,0 +1,1 @@
+SELECT pokemon.identifier from pokemon where pokemon.id in (196, 350, 558);

@@ -1,0 +1,1 @@
+ln -sf red_flower blue_flower

@@ -1,0 +1,114 @@
+.adminMain {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.adminMenu {
+    width: 30%;
+    background-color: #aed6f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allProducts {
+    width: 50%;
+}
+
+.titleMain {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.toCreate {
+    width: 60%;
+    cursor: pointer;
+    background-color: #43a6ea;
+
+    border-radius: 15px;
+    margin: 5% 0;
+}
+
+.pressToChange {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    background-color: #43a6ea;
+}
+
+.pressToChange p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.parentForMore {
+    width: 20px;
+    height: 20px;
+}
+
+.displayNone {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #98c7e7;
+    border-radius: 15px;
+}
+
+.none {
+    display: none;
+}
+
+.displayNone input,
+#imgPopping {
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.displayNone button {
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.allProducts {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all {
+    width: 80%;
+    background-color: #98c7e7;
+    margin: 5rem;
+}
+
+.cardAdminUpdate {
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.descAdmin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

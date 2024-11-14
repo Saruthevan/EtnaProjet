@@ -1,0 +1,39 @@
+
+
+[
+    {
+      "name": "Pumpkin Stew",
+      "ingredients": [
+        "Fortified Pumpkin",
+        "Goat Butter",
+        "Fresh Milk",
+        "Tabantha Wheat"
+      ]
+    },
+    {
+      "name": "Salmon Meuniere",
+      "ingredients": [
+        "Hearty Salmon",
+        "Goat Butter",
+        "Tabantha Wheat"
+      ]
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        "Hearty Salmon",
+        "Rock Salt",
+        "Hylian Rice",
+        "Goat Butter"
+      ]
+    },
+    {
+      "name": "Clam Chowder",
+      "ingredients": [
+        "Hearty Blueshell Snail",
+        "Goat Butter",
+        "Fresh Milk",
+        "Tabantha Wheat"
+      ]
+    }
+  ]
